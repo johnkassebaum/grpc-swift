@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
     s.source_files = 'Sources/GRPC/**/*.{swift,c,h}'
 
     s.dependency 'Logging', '1.2.0'
-    s.dependency 'SwiftNIO', '2.15.0'
-    s.dependency 'SwiftNIOHTTP2', '1.11.0'
-    s.dependency 'SwiftNIOSSL', '2.7.1'
-    s.dependency 'SwiftNIOTransportServices', '1.3.0'
+    s.dependency 'SwiftNIO', '2.19.0'
+    s.dependency 'SwiftNIOHTTP2', '1.12.3'
+    s.dependency 'SwiftNIOSSL', '2.8.0'
+    s.dependency 'SwiftNIOTransportServices', '1.7.0'
     s.dependency 'SwiftProtobuf', '1.8.0'
     s.dependency 'CGRPCZlib', s.version.to_s
 
